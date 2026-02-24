@@ -3,8 +3,9 @@ Web-API for [whatpulse.org](https://whatpulse.org) website that measures your ke
 
 ## Example
 ```python
-import what_pulse
-what_pulse = what_pulse.WhatPulse()
-user_stats = what_pulse.get_user_stats(user_id="")
+from what_pulse import WhatPulse
+
+wp = WhatPulse()
+user_stats = wp.get_user_stats(user_id="")
 print(user_stats)
 ```
